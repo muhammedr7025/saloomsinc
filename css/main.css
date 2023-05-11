@@ -2603,6 +2603,17 @@ form .inputs-description {
   width: 4.4rem;
   height: 4.4rem;
 }
+@media screen and (max-width: 1200px) {
+  .video-background {
+    display: none;
+  }
+  .media__image {
+    display: none;
+  }
+  #main-video {
+    display: none;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .inner-controls {
     position: absolute;
