@@ -2480,6 +2480,30 @@ form .inputs-description {
   -o-object-fit: cover;
   object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+  #main-video {
+    display: none;
+  }
+  .parent-container {
+    /* Replace with the actual class or ID of the parent container */
+    height: 0;
+    overflow: hidden; /* This prevents any scrolling due to the container */
+    /* Adjust padding and margins as needed */
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-12.col-xl-4.main__media {
+    display: none;
+  }
+  .col-12.col-xl-4.menu__media {
+    display: none;
+  }
+  .col-12.col-xl-4.inner__media {
+    display: none;
+  }
+}
 
 #bgndKenburns {
   display: block;
